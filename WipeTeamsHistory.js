@@ -12,7 +12,6 @@
       false, false, false, 1, null);
     element.dispatchEvent(evt);
   };
-
   var processQueue = function() {
     if (queue.length > 0) {
       var item = queue.shift();
