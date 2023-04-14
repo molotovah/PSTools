@@ -1,5 +1,5 @@
 # Demander à l'utilisateur quand il veut que la tâche redémarre l'ordinateur
-$Date = Read-Host -Prompt "Entrez les jours de la semaine (par exemple, lundi,mardi) : "
+$Date = Read-Host -Prompt "Entrez les jours de la semaine en Anglais (par exemple, monday,tuesday) : "
 $Time = Read-Host -Prompt "Entrez l'heure (par exemple, 23:00) : "
 
 # Créer une action pour redémarrer l'ordinateur
